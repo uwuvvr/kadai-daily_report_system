@@ -48,6 +48,6 @@
             </c:otherwise>
         </c:choose>
 
-        <p><a href="<c:out value="/reports/index" />">一覧に戻る</a></p>
+        <p><a href="<c:url value="/reports/index" />">一覧に戻る</a></p>
     </c:param>
 </c:import>
